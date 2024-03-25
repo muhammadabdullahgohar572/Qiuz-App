@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quiz App</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="container">
+            <div id="top-div">
+                <h3>Quiz App</h3>
+                <h3><span id="currentquestionnumber">0</span>/<span id="totalquestionumber">10</span></h3>
+            </div>
+            <div id="main-div">
+                <h1 id="question"></h1>
+            </div>
+            <div id="bottom-div"></div>
+            <button onclick="nextquestion()" class="nxt-btn">Next</button>
+        </div>
+    </div>
+
+    <div id="result">
+        <h3> Your Marks is <span id="markvalue"></span>%</h3>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
